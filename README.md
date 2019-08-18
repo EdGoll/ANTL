@@ -77,7 +77,7 @@ Installation
 	4. Click Install
 	5. Let the installer finish clicking ok if it prompts and restart Eclipse
 5. Obtain a copy of antlr-4.x-complete.jar
-	1. Download the file from [here](http://www.antlr.org/download.html)
+	1. Download the file from [here](https://www.antlr.org/download/antlr-4.6-complete.jar)
 	2. Save it somewhere you'll remember
 
 Creating a project in Eclipse
