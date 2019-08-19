@@ -1,18 +1,22 @@
-program miprogram{
-
-	var x;
-	 
-	 x=5;
-	 
-	 println 6;
-	 
-	 println x;
-	 
-	 var y;
-	 
-	 println y;
-	 
-	 y=x;
-	 
-	 println y;
-}
+inicio
+	entero x
+	entero y
+	entero z
+	
+	si (x = y) { 
+		x <- 0
+		y <- 1
+	} sino_si (x > y) {
+		x <- 1
+		z <- 1
+	} sino_si (x <> z) {
+		x <- 0
+		y <- z
+	} sino {
+		x <- 1
+		z <- y
+	}
+	fin_si
+	escribir(x y z)
+	escribir("fin del programa")
+fin
