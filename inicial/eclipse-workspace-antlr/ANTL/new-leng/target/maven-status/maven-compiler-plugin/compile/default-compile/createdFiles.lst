@@ -1,7 +1,0 @@
-org\poc\leng\newleng\SimpleVisitor.class
-org\poc\leng\newleng\SimpleListener.class
-org\poc\leng\newleng\SimpleBaseListener.class
-org\poc\leng\newleng\SimpleBaseVisitor.class
-org\poc\leng\newleng\SimpleParser.class
-org\poc\leng\newleng\SimpleLexer.class
-org\poc\leng\newleng\SimpleParser$StartContext.class

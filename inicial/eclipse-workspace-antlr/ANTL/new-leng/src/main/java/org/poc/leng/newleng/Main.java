@@ -18,10 +18,10 @@ public class Main {
 		CommonTokenStream tokens = new CommonTokenStream(lexer);
 		SimpleParser parser = new SimpleParser(tokens);
 
-		SimpleParser.ProgramContext tree = parser.program();
+	//	SimpleParser.ProgramContext tree = parser.program();
 
 		SimpleCustomVisitor visitor = new SimpleCustomVisitor();
-		visitor.visit(tree);
+//		visitor.visit(tree);
 
 		System.out.println("Interpretation finished");
 
